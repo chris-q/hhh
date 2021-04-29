@@ -1,0 +1,19 @@
+import Vue from 'vue';
+import {{properCase name}} from '../src/{{name}}.vue'
+import README from '../README.md'
+export default {
+  title: '{{properCase name}}',
+  component: {{properCase name}},
+  parameters: {
+    notes: { README },
+  },
+}
+
+export const {{properCase name}} = _ => ({
+  components: { {{properCase name}} },
+  template: `
+    <div>
+      <{{name}}></{{name}}>
+    </div>
+  `
+})
