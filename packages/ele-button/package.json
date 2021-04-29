@@ -1,14 +1,12 @@
 {
   "name": "ele-button",
-  "version": "0.0.0",
+  "version": "0.1.7",
   "description": "ele-button component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
   },
   "keywords": []
 }
